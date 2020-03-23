@@ -1,0 +1,37 @@
+
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Covid-19-it provinces</title>
+        <meta name="author" content="Gian Marco Todesco">
+
+        <link rel="stylesheet" href="style.css"/>
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <h1>COVID-19 Italian provinces comparison</h1>
+        <p>This chart shows the new positive cases every day. </p>
+        <p>You can add provinces by using the pulldown menu on the bottom
+            and remove them
+            by clicking on the small 'x' near the name. 
+            Move the 
+        mouse over the graph to see actual numbers.</p>
+        <p>The vertical scale is logarithmic (an exponential
+            growth looks like a straight line).
+        </p>
+        <p>
+            Data from the Italian "Protezione civile": <a href="https://github.com/pcm-dpc/COVID-19">https://github.com/pcm-dpc/COVID-19</a>
+        </p>
+        <p>Source code: <a href="https://github.com/gianmarco-todesco/covid-19-it-provinces">https://github.com/gianmarco-todesco/covid-19-it-provinces</a></p>
+        <div id="c"></div>  
+        <div>
+            <select id="country-selector"></select>
+        </div>     
+    </body>    
+</html>
