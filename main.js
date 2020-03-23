@@ -76,6 +76,7 @@ function processData(data) {
 }
 
 
+
 function getProvData(dataSet, provName, minValue) {
     let data = dataSet
         .filter(d=>d.denominazione_provincia == provName)
